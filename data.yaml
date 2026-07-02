@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: valid/images
+
+nc: 2
+names: ['fire', 'smoke']
+
+roboflow:
+  workspace: ahmets-workspace-8umhv
+  project: ahmets-workspace-8umhv
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/ahmets-workspace-8umhv/ahmets-workspace-8umhv/dataset
