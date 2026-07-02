@@ -31,22 +31,29 @@ Sistem; fotoğraf analizi ve canlı kamera üzerinden yangın ile duman tespiti 
 - Pillow
 
 ---
-
 # Proje Yapısı
 
 ```
 FireDetection/
 
-│── demo_app.py
+│── runs/
+│── .gitignore
 │── alarm_app_final.py
 │── best.pt
-│── requirements.txt
-│── README.md
+│── create_fire_negative_labels.py
+│── create_negative_labels.py
 │── data.yaml
+│── demo_app.py
+│── extract_fire_frames.py
+│── extract_frames.py
+│── log.txt
+│── requirements.txt
 │── test.jpg
+│── test_image.py
+│── train.py
+│── validate.py
+│── README.md
 ```
-
----
 
 # Kurulum
 
